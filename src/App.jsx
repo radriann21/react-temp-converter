@@ -1,5 +1,11 @@
+import { Converter } from "./components/Converter";
+
 function App() {
-  return <h1 className="font-global text-3xl text-red-300">hello world</h1>;
+  return (
+    <main className="max-w-full h-screen flex items-center justify-center">
+      <Converter />
+    </main>
+  );
 }
 
 export default App;
